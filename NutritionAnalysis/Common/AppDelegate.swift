@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  PhotoLibrary
+//  NutritionAnalysis
 //
-//  Created by Yassmin Abdallah on 12/24/20.
+//  Created by Yassmin on 11/07/2021.
 //
 
 import UIKit
@@ -16,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         window = UIWindow()
-        window?.rootViewController = UINavigationController(rootViewController: UserProfileViewController()) 
+        window?.rootViewController = UINavigationController(rootViewController: IngredientListViewController()) 
         window?.makeKeyAndVisible()
         
         return true
