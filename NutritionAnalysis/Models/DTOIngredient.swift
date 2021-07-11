@@ -285,3 +285,27 @@ struct GeneralDetails : Codable {
 
 }
 
+
+
+class DTODetailsIngredient : NSObject {
+    var qty : String?
+    var unit : String?
+    var food : String?
+    var calories : String?
+    var weight : String?
+
+//    enum CodingKeys: String, CodingKey {
+//
+//        case qty = "qty"
+//        case unit = "unit"
+//        case food = "food"
+//    }
+//
+//    init(from decoder: Decoder) throws {
+//        let values = try decoder.container(keyedBy: CodingKeys.self)
+//        qty = try values.decodeIfPresent(String.self, forKey: .qty)
+//        unit = try values.decodeIfPresent(String.self, forKey: .unit)
+//        food = try values.decodeIfPresent(String.self, forKey: .food)
+//    }
+
+}
